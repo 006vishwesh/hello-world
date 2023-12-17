@@ -1,0 +1,42 @@
+.Heading{
+  display: flex;
+  justify-content: space-between;
+  border: solid black 1px;
+  margin: 0 1px;
+}
+
+.nav-items>ul{
+  display: flex;
+}
+
+.nav-items>ul>li{
+  padding: 10px;
+  margin: 10px;
+}
+
+.resimg{
+  width: 100%;
+}
+
+.rescard{
+  background-color: darkgray;
+  border: solid black 1px;
+  width: 200px;
+  margin: 1px;
+}
+
+.rescard:hover {
+  cursor: pointer;
+  border: solid black 1px;
+
+}
+
+.search {
+ padding: 1px;
+}
+
+.res-container{
+  display: flex;
+  flex-wrap: wrap;
+  padding: 5px;
+}
